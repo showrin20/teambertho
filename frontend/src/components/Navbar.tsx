@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
           <Link to="/" className="text-gray-600 hover:text-blue-500">Home</Link>
           <Link to="/exhibition" className="text-gray-600 hover:text-blue-500">Exhibition</Link>
           <Link to="/short-films" className="text-gray-600 hover:text-blue-500">Short Films</Link>
-          <Link to="/shop" className="text-gray-600 hover:text-blue-500">Shop</Link>
+          <Link to="https://www.rokomari.com/book/209447/fueling-hope" className="text-gray-600 hover:text-blue-500">Shop</Link>
           <Link to="/contact" className="text-gray-600 hover:text-blue-500">Contact Us</Link>
         </div>
       </div>
