@@ -78,12 +78,13 @@ export default function Signin() {
         </div>
   
         <div>
-          <button
-            type="submit"
-            className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-indigo-600"
-          >
-            Sign in
-          </button>
+      
+        <button
+  type="submit"
+  className="flex w-full justify-center rounded-md bg-gray-800 px-3 py-1.5 text-sm font-semibold text-white shadow-xs hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-gray-800"
+>
+  Sign in
+</button>
         </div>
       </form>
   

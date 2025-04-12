@@ -31,7 +31,7 @@ export default function Signup() {
           className="mx-auto h-10 w-auto"
         />
         <h2 className="mt-10 text-center text-2xl font-bold tracking-tight text-gray-900">
-          Sign up
+        Create Admin Account
         </h2>
       </div>
 

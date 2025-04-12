@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaUser, FaSignInAlt, FaUserPlus } from "react-icons/fa"; // Importing icons
+import { FaUser, FaLock  } from "react-icons/fa"; // Importing icons
 
 const Navbar: React.FC = () => {
   return (
@@ -27,11 +27,13 @@ const Navbar: React.FC = () => {
         {/* User-related Links with Icons */}
         <div className="flex space-x-4">
           <Link to="/signin" className="text-gray-600 hover:text-blue-500 flex items-center space-x-1">
-            <FaSignInAlt /> <span>Signin</span>
+          <FaLock /> <span>Team Access
+
+</span>
           </Link>
-          <Link to="/signup" className="text-gray-600 hover:text-blue-500 flex items-center space-x-1">
+          {/* <Link to="/signup" className="text-gray-600 hover:text-blue-500 flex items-center space-x-1">
             <FaUserPlus /> <span>Signup</span>
-          </Link>
+          </Link> */}
           <Link to="/profile" className="text-gray-600 hover:text-blue-500 flex items-center space-x-1">
             <FaUser /> <span>Profile</span>
           </Link>
