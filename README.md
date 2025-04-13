@@ -54,6 +54,8 @@
 - **Signup**: Users sign up with an **email** and **password**. The password is hashed using **bcrypt**.
 - **Signin**: After signing in, users receive a **JWT token** for authentication. The token is stored in local storage and used for protected API calls.
 - **Role Management**: The backend checks user roles to determine if they can perform actions such as updating profiles, adding blogs, or managing team members.
+
+- 
 ![1](teambertho.png)
 
 
