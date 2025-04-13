@@ -1,6 +1,6 @@
 
 # Team Bertho Website
-![1]()
+![1](teambertho.png)
 
 ## Project Features
 
